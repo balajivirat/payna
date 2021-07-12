@@ -101,6 +101,7 @@
 }
 .sec-2{
     width: 150%;
+    padding: 1%;
 }
 .sec-2 p{
     margin-top: 30px;
@@ -111,11 +112,11 @@
     margin-top: -125px;
 }
 .sec-2 ul{
-    padding: 4px 474px 0px 0px;
+    padding: 4px 280px 0px 0px;
 }
 .sec-2 ul li{
     margin-bottom: 30px;
 }
 .height-img{
-    height: 80vh;
+    height: 100vh;
 }
