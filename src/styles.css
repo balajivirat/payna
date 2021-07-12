@@ -576,4 +576,22 @@ footer{
     align-items: center;
     color: #fff;
 }
+.hover-div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 326px;
+    top: 120px;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 189px;
+    margin-bottom: 50px;
+    visibility: hidden;
+}
+.image-box-1:hover .div-aligner {
+    visibility: visible;
+    z-index: 1;
+    top: 113%;
+}
 }
