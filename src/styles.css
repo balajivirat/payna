@@ -421,7 +421,7 @@ footer{
     position: relative;
 }
 .section {
-    width: 81%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -483,11 +483,100 @@ footer{
 .absolute-1 {
     position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 42px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 6px 20px 7px;
     min-width: 180px;
 }
+.absolute-2 {
+    position: absolute;
+    left: 0;
+    bottom: 42px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 20px 7px;
+    min-width: 180px;
+}
+.absolute {
+    position: absolute;
+    left: 0;
+    bottom: 42px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 20px 7px;
+    min-width: 180px;
+}
+.ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.li {
+    padding-left: 14px;
+    padding-top: 50px;
+    font-size: 14px;
+    color: #212529;
+}
+.image-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.image-box-1 {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+}
+.bg-w h3 {
+    font-size: 18px;
+}
+.heading {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 38px;
+    width: 100%;
+}
+.bg-w {
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 2px;
+}
+footer{
+    background-color: #262626;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 18px;
+}
+.footer-ul li img{
+    width: 50%;
+}
+.footer-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.footer-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
 
 
 }
